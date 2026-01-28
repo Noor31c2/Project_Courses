@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="Chrome"/>
+    <test verbose="2" name="TEST1">
+
+        <classes>
+            <class name="testCases.TC04_searchWebDevelopmentCourseTest"/>
+            <class name="testCases.TC10_DisplayingFirstTwoCourses"/>
+            <class name="testCases.TC16_FilteringCoursesAndWritingCountInExcel"/>
+            <class name="testCases.TC34_submitingEnterpriseWithInvalidMail"/>
+        </classes>
+    </test>
+</suite>
