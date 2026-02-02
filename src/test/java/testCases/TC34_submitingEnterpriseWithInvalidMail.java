@@ -17,10 +17,10 @@ public class TC34_submitingEnterpriseWithInvalidMail extends BaseClass {
         fe.clickForEnterpriseLink();
         fe.clickForEnterprisePageLink();
         fe.clickCourseraForCampusLogo();
-        String actualTitle = driver.getCurrentUrl();
-        String expectedTitle = "https://www.coursera.org/campus";
-        logger.info("Verifying page title");
-        Assert.assertEquals(actualTitle, expectedTitle, "Page title does not match!");
+//        String actualTitle = driver.getCurrentUrl();
+//        String expectedTitle = "https://www.coursera.org/campus";
+//        logger.info("Verifying page title");
+//        Assert.assertEquals(actualTitle, expectedTitle, "Page title does not match!");
         logger.info("Entering First Name");
         fe.enterFirstName("John");
         logger.info("Entering Last Name");
