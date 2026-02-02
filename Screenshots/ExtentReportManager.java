@@ -103,4 +103,15 @@ public class ExtentReportManager implements ITestListener {
         }
     }
 
+    public static ExtentReports getReportInstance(){
+        if(extent==null){
+            ExtentSparkReporter spark=new ExtentSparkReporter("reports/EMI_Report.html");
+            spark.config().setReportName("EMI Automation Report");
+            spark.config().setDocumentTitle("EMI Test Results");
+
+            extent= new ExtentReports();
+            extent.attachReporter(spark);
+        }
+        return extent;
+    }
 }

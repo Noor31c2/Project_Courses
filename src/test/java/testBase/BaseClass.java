@@ -63,7 +63,7 @@ public class BaseClass {
         driver.get(p.getProperty("appURL"));
         driver.manage().window().maximize();
 
-        extent = ExtentReportManager.getReportInstance();
+
         logger.info("Extent report initialized.");
 
     }
@@ -83,7 +83,7 @@ public class BaseClass {
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
         File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
-        String targetFilePath=System.getProperty("user.dir")+"\\Screenshots\\" + tname + "_" + timeStamp + ".png";
+        String targetFilePath=System.getProperty("user.dir")+"\\Screenshots\\FailedTestCasesScreenShots" + tname + "_" + timeStamp + ".png";
         File targetFile=new File(targetFilePath);
 
         sourceFile.renameTo(targetFile);

@@ -10,12 +10,15 @@ import testBase.BaseClass;
 
 import java.time.Duration;
 
+import static utilities.ExtentReportManager.test;
+
 public class TC04_searchWebDevelopmentCourseTest extends BaseClass {
 
     @Test
     public void searchWebDevelopmentCourseTest(){
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         logger.info("******Starting TC04_searchWebDevelopmentCourseTest******");
+//        test.info("Searching for Web Development course");
         HomePage hp = new HomePage(driver);
         hp.clickSearchBox();
         logger.info("Entering Web Development in search box");
@@ -25,6 +28,7 @@ public class TC04_searchWebDevelopmentCourseTest extends BaseClass {
         Actions act=new Actions(driver);
         act.keyDown(Keys.ENTER).keyUp(Keys.ENTER).perform();
         logger.info("******Ending TC04_searchWebDevelopmentCourseTest******");
+//        test.info("Ended TC04_searchWebDevelopmentCourseTest");
     }
 
 }

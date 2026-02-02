@@ -138,14 +138,9 @@ public class ForEnterprise extends BasePage {
     }
 
     public void takeScreenShot(){
-        String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-
-        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-        File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-
-        String targetFilePath=System.getProperty("user.dir")+"\\Screenshots\\" + timeStamp + "coursera.png";
-        File targetFile=new File(targetFilePath);
-
-        sourceFile.renameTo(targetFile);
+        TakesScreenshot ts=(TakesScreenshot)driver;
+        File tempimg=ts.getScreenshotAs(OutputType.FILE);
+        File img=new File(System.getProperty("user.dir")+"\\Screenshots\\coursera.png");
+        tempimg.renameTo(img);
     }
 }

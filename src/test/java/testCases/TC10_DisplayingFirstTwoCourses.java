@@ -4,11 +4,14 @@ import org.testng.annotations.Test;
 import pageObject.SearchResults;
 import testBase.BaseClass;
 
+import static utilities.ExtentReportManager.test;
+
 public class TC10_DisplayingFirstTwoCourses extends BaseClass {
     @Test
     public void filteringCoursesTest() {
         SearchResults sr = new SearchResults(driver);
         logger.info("******Starting TC10_FilteringCoursesTest******");
+//        test.info("Starting TC10_FilteringCoursesTest");
         sr.clickLanguageFilter();
         logger.info("Applying English language filter");
         sr.clickEnglishCheckbox();
@@ -26,6 +29,7 @@ public class TC10_DisplayingFirstTwoCourses extends BaseClass {
         System.out.println("Second Course Duration is: " + sr.getCourseDuration(1).replaceAll(".*?(\\d.*)", "$1"));
         System.out.println("Second Course Rating: " + sr.getCourseRating(1));
         logger.info("******Ending TC10_FilteringCoursesTest******");
+//        test.info("Ending TC10_FilteringCoursesTest");
     }
 
 }

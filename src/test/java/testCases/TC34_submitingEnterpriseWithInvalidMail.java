@@ -11,7 +11,7 @@ public class TC34_submitingEnterpriseWithInvalidMail extends BaseClass {
     @Test
     public void submitingEnterpriseWithInvalidMail() {
         logger.info("******Starting TC34_submitingEnterpriseWithInvalidMail******");
-        test.info("Starting test: submitingEnterpriseWithInvalidMail");
+//        test.info("Starting test: submitingEnterpriseWithInvalidMail");
         ForEnterprise fe = new ForEnterprise(driver);
         logger.info("Filling For Enterprise form with invalid email");
         fe.clickForEnterpriseLink();
@@ -50,5 +50,6 @@ public class TC34_submitingEnterpriseWithInvalidMail extends BaseClass {
         logger.info("Taking screenshot of the error message");
         fe.takeScreenShot();
         logger.info("******Ending TC34_submitingEnterpriseWithInvalidMail******");
+//        test.info("Ended TC34_submitingEnterpriseWithInvalidMail");
     }
 }
