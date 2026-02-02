@@ -250,3 +250,350 @@
 2026-02-02 12:15:33 INFO  TC04_searchWebDevelopmentCourseTest:50 - Taking screenshot of the error message
 2026-02-02 12:15:33 INFO  TC04_searchWebDevelopmentCourseTest:52 - ******Ending TC34_submitingEnterpriseWithInvalidMail******
 2026-02-02 12:15:42 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4301fa39: 0 ms
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 10 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:18:34 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457151\OneDrive - Cognizant\Desktop\MajorProject\Project_Courses\TestNg.xml
+
+2026-02-02 12:18:35 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2026-02-02 12:18:36 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7fab4be7: 1 ms
+2026-02-02 12:19:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 8 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:19:32 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457151\OneDrive - Cognizant\Desktop\MajorProject\Project_Courses\TestNg.xml
+
+2026-02-02 12:19:38 INFO  TC04_searchWebDevelopmentCourseTest:68 - Extent report initialized.
+2026-02-02 12:19:39 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2026-02-02 12:19:39 INFO  TC04_searchWebDevelopmentCourseTest:20 - ******Starting TC04_searchWebDevelopmentCourseTest******
+2026-02-02 12:19:39 INFO  TC04_searchWebDevelopmentCourseTest:24 - Entering Web Development in search box
+2026-02-02 12:19:39 INFO  TC04_searchWebDevelopmentCourseTest:26 - Clicking on search button
+2026-02-02 12:19:42 INFO  TC04_searchWebDevelopmentCourseTest:30 - ******Ending TC04_searchWebDevelopmentCourseTest******
+2026-02-02 12:19:42 INFO  TC04_searchWebDevelopmentCourseTest:13 - ******Starting TC10_FilteringCoursesTest******
+2026-02-02 12:19:43 INFO  TC04_searchWebDevelopmentCourseTest:16 - Applying English language filter
+2026-02-02 12:19:44 INFO  TC04_searchWebDevelopmentCourseTest:20 - Applying Beginner level filter
+2026-02-02 12:19:44 INFO  TC04_searchWebDevelopmentCourseTest:23 - Displaying first two courses after applying filters:
+2026-02-02 12:19:49 INFO  TC04_searchWebDevelopmentCourseTest:31 - ******Ending TC10_FilteringCoursesTest******
+2026-02-02 12:19:49 INFO  TC04_searchWebDevelopmentCourseTest:14 - ******Starting TC16_FilteringCoursesAndWritingCountInExcel******
+2026-02-02 12:19:49 INFO  TC04_searchWebDevelopmentCourseTest:17 - Writing language options and their course counts to Excel file
+2026-02-02 12:19:56 INFO  TC04_searchWebDevelopmentCourseTest:20 - ******Ending TC16_FilteringCoursesAndWritingCountInExcel******
+2026-02-02 12:19:56 INFO  TC04_searchWebDevelopmentCourseTest:13 - ******Starting TC34_submitingEnterpriseWithInvalidMail******
+2026-02-02 12:19:56 INFO  TC04_searchWebDevelopmentCourseTest:16 - Filling For Enterprise form with invalid email
+2026-02-02 12:20:10 INFO  TC04_searchWebDevelopmentCourseTest:22 - Verifying page title
+2026-02-02 12:20:10 INFO  TC04_searchWebDevelopmentCourseTest:24 - Entering First Name
+2026-02-02 12:20:10 INFO  TC04_searchWebDevelopmentCourseTest:26 - Entering Last Name
+2026-02-02 12:20:10 INFO  TC04_searchWebDevelopmentCourseTest:28 - Entering Invalid Email
+2026-02-02 12:20:11 INFO  TC04_searchWebDevelopmentCourseTest:30 - Entering Phone Number
+2026-02-02 12:20:11 INFO  TC04_searchWebDevelopmentCourseTest:32 - Selecting Institution Type
+2026-02-02 12:20:11 INFO  TC04_searchWebDevelopmentCourseTest:34 - Entering Institution Name
+2026-02-02 12:20:11 INFO  TC04_searchWebDevelopmentCourseTest:36 - Selecting Job Title
+2026-02-02 12:20:11 INFO  TC04_searchWebDevelopmentCourseTest:38 - Selecting Department
+2026-02-02 12:20:11 INFO  TC04_searchWebDevelopmentCourseTest:40 - Selecting Description
+2026-02-02 12:20:11 INFO  TC04_searchWebDevelopmentCourseTest:42 - Selecting Country
+2026-02-02 12:20:12 INFO  TC04_searchWebDevelopmentCourseTest:44 - Selecting State
+2026-02-02 12:20:12 INFO  TC04_searchWebDevelopmentCourseTest:46 - Submitting the form
+2026-02-02 12:20:12 INFO  TC04_searchWebDevelopmentCourseTest:48 - Verifying error message for invalid email
+2026-02-02 12:20:12 INFO  TC04_searchWebDevelopmentCourseTest:50 - Taking screenshot of the error message
+2026-02-02 12:20:12 INFO  TC04_searchWebDevelopmentCourseTest:52 - ******Ending TC34_submitingEnterpriseWithInvalidMail******
+2026-02-02 12:20:21 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@1c7744c1: 1 ms
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-02 12:24:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457151\OneDrive - Cognizant\Desktop\MajorProject\Project_Courses\TestNg.xml
+
+2026-02-02 12:24:44 INFO  TC04_searchWebDevelopmentCourseTest:67 - Extent report initialized.
+2026-02-02 12:24:44 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+2026-02-02 12:24:44 INFO  TC04_searchWebDevelopmentCourseTest:20 - ******Starting TC04_searchWebDevelopmentCourseTest******
+2026-02-02 12:24:45 INFO  TC04_searchWebDevelopmentCourseTest:24 - Entering Web Development in search box
+2026-02-02 12:24:45 INFO  TC04_searchWebDevelopmentCourseTest:26 - Clicking on search button
+2026-02-02 12:24:48 INFO  TC04_searchWebDevelopmentCourseTest:30 - ******Ending TC04_searchWebDevelopmentCourseTest******
+2026-02-02 12:24:48 INFO  TC04_searchWebDevelopmentCourseTest:13 - ******Starting TC10_FilteringCoursesTest******
+2026-02-02 12:24:49 INFO  TC04_searchWebDevelopmentCourseTest:16 - Applying English language filter
+2026-02-02 12:24:49 INFO  TC04_searchWebDevelopmentCourseTest:20 - Applying Beginner level filter
+2026-02-02 12:24:50 INFO  TC04_searchWebDevelopmentCourseTest:23 - Displaying first two courses after applying filters:
+2026-02-02 12:24:53 INFO  TC04_searchWebDevelopmentCourseTest:31 - ******Ending TC10_FilteringCoursesTest******
+2026-02-02 12:24:53 INFO  TC04_searchWebDevelopmentCourseTest:14 - ******Starting TC16_FilteringCoursesAndWritingCountInExcel******
+2026-02-02 12:24:53 INFO  TC04_searchWebDevelopmentCourseTest:17 - Writing language options and their course counts to Excel file
+2026-02-02 12:25:00 INFO  TC04_searchWebDevelopmentCourseTest:20 - ******Ending TC16_FilteringCoursesAndWritingCountInExcel******
+2026-02-02 12:25:00 INFO  TC04_searchWebDevelopmentCourseTest:13 - ******Starting TC34_submitingEnterpriseWithInvalidMail******
+2026-02-02 12:25:00 INFO  TC04_searchWebDevelopmentCourseTest:16 - Filling For Enterprise form with invalid email
+2026-02-02 12:25:15 INFO  TC04_searchWebDevelopmentCourseTest:22 - Verifying page title
+2026-02-02 12:25:15 INFO  TC04_searchWebDevelopmentCourseTest:24 - Entering First Name
+2026-02-02 12:25:15 INFO  TC04_searchWebDevelopmentCourseTest:26 - Entering Last Name
+2026-02-02 12:25:15 INFO  TC04_searchWebDevelopmentCourseTest:28 - Entering Invalid Email
+2026-02-02 12:25:15 INFO  TC04_searchWebDevelopmentCourseTest:30 - Entering Phone Number
+2026-02-02 12:25:16 INFO  TC04_searchWebDevelopmentCourseTest:32 - Selecting Institution Type
+2026-02-02 12:25:16 INFO  TC04_searchWebDevelopmentCourseTest:34 - Entering Institution Name
+2026-02-02 12:25:16 INFO  TC04_searchWebDevelopmentCourseTest:36 - Selecting Job Title
+2026-02-02 12:25:16 INFO  TC04_searchWebDevelopmentCourseTest:38 - Selecting Department
+2026-02-02 12:25:16 INFO  TC04_searchWebDevelopmentCourseTest:40 - Selecting Description
+2026-02-02 12:25:16 INFO  TC04_searchWebDevelopmentCourseTest:42 - Selecting Country
+2026-02-02 12:25:17 INFO  TC04_searchWebDevelopmentCourseTest:44 - Selecting State
+2026-02-02 12:25:17 INFO  TC04_searchWebDevelopmentCourseTest:46 - Submitting the form
+2026-02-02 12:25:17 INFO  TC04_searchWebDevelopmentCourseTest:48 - Verifying error message for invalid email
+2026-02-02 12:25:17 INFO  TC04_searchWebDevelopmentCourseTest:50 - Taking screenshot of the error message
+2026-02-02 12:25:17 INFO  TC04_searchWebDevelopmentCourseTest:52 - ******Ending TC34_submitingEnterpriseWithInvalidMail******
+2026-02-02 12:25:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@38d4488c: 0 ms

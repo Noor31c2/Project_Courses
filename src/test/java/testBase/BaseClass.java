@@ -29,8 +29,8 @@ public class BaseClass {
     protected static ExtentReports extent;
 
     @BeforeSuite
-    @Parameters({"browser"})
-    public void setup(String browser) throws IOException {
+    @Parameters({"os","browser"})
+    public void setup(String os, String browser) throws IOException {
         //Loading config.properties file
         logger = LogManager.getLogger(this.getClass());
 
