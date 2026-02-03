@@ -43,7 +43,7 @@ public class SearchResults extends BasePage {
 
     public void clickLanguageFilter(){
         new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.visibilityOf(languageFilter));
+                .until(ExpectedConditions.elementToBeClickable(languageFilter));
         languageFilter.click();
     }
 
