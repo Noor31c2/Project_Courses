@@ -21,7 +21,6 @@ public class GettingCourseDetails extends BasePage {
         super(driver);
     }
 
-
     @FindBy(xpath = "//div[@class='sticky-filter-bar css-wbivlq']/button[2]/span[text()='Clear all']")
     WebElement clearAllButton;
 
@@ -50,21 +49,24 @@ public class GettingCourseDetails extends BasePage {
     WebElement viewCoursesLanguageButton;
 
     public void clickClearAllButton(){
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(clearAllButton));
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.elementToBeClickable(clearAllButton));
         clearAllButton.click();
     }
 
     public void clickLanguageFiltersButton(){
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(languageFiltersButton));
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.elementToBeClickable(languageFiltersButton));
         languageFiltersButton.click();
     }
 
     public void clickLevelFiltersButton(){
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(levelFiltersButton));
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.elementToBeClickable(levelFiltersButton));
         levelFiltersButton.click();
     }
 
-    public void WriteLanguageOptionsAndCount() throws IOException {
+    public void writeLanguageOptionsAndCount() throws IOException {
         Workbook workbook = new XSSFWorkbook();
         Sheet sheet = workbook.createSheet("Courses Details");
 
@@ -74,29 +76,25 @@ public class GettingCourseDetails extends BasePage {
         headerRow.createCell(0).setCellValue("Levels");
         headerRow.createCell(1).setCellValue("Counts");
 
-//        levelFiltersButton.click();
-
         clickLevelFiltersButton();
 
-        for(int i=0;i<levelOptions.size();i++){
+        for(int i=0; i<levelOptions.size(); i++){
             Row row = sheet.createRow(rowNum++);
-            row.createCell(0).setCellValue(levelOptions.get(i).getText().replaceAll("\\(.*", ""));
+            row.createCell(0).setCellValue(levelOptions.get(i).getText().replaceAll("\\(.*", "").trim());
             row.createCell(1).setCellValue(levelOptionsCount.get(i).getText());
         }
 
         viewCoursesLevelButton.click();
+        rowNum++;
 
-        rowNum++; // Blank row for separation
-
-//        languageFiltersButton.click();
         clickLanguageFiltersButton();
         Row langHeaderRow = sheet.createRow(rowNum++);
         langHeaderRow.createCell(0).setCellValue("Languages");
         langHeaderRow.createCell(1).setCellValue("Counts");
 
-        for(int i=0;i<languageOptions.size();i++){
+        for(int i=0; i<languageOptions.size(); i++){
             Row row = sheet.createRow(rowNum++);
-            row.createCell(0).setCellValue(languageOptions.get(i).getText().replaceAll("\\(.*", ""));
+            row.createCell(0).setCellValue(languageOptions.get(i).getText().replaceAll("\\(.*", "").trim());
             row.createCell(1).setCellValue(languageOptionsCount.get(i).getText());
         }
 
@@ -104,13 +102,11 @@ public class GettingCourseDetails extends BasePage {
             sheet.autoSizeColumn(i);
         }
 
-        try(FileOutputStream fo = new FileOutputStream(System.getProperty("user.dir")+"\\Testdata\\"+"CoursesDetails.xlsx")){
+        try(FileOutputStream fo = new FileOutputStream(System.getProperty("user.dir")+"\\Testdata\\CoursesDetails.xlsx")){
             workbook.write(fo);
         }
         workbook.close();
 
         viewCoursesLanguageButton.click();
     }
-
-
 }
