@@ -29,7 +29,7 @@ public class BaseClass {
     protected static ExtentReports extent;
 
     @BeforeSuite
-    public void setup throws IOException {
+    public void setup() throws IOException {
         //Loading config.properties file
         logger = LogManager.getLogger(this.getClass());
 
