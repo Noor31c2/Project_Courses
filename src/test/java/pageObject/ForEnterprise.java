@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -41,10 +43,10 @@ public class ForEnterprise extends BasePage {
     WebElement phoneInput;
 
     @FindBy(xpath = "//select[@id='Institution_Type__c']")
-    WebElement instutionType;
+    WebElement institutionType;
 
     @FindBy(xpath = "//input[@id='Company']")
-    WebElement instutionName;
+    WebElement institutionName;
 
     @FindBy(xpath = "//select[@id='Title']")
     WebElement jobTitle;
@@ -67,7 +69,6 @@ public class ForEnterprise extends BasePage {
     @FindBy(xpath = "//div[@id='ValidMsgEmail']")
     WebElement emailErrorMessage;
 
-
     public void clickForEnterpriseLink() {
         forEnterpriseLink.click();
     }
@@ -77,9 +78,7 @@ public class ForEnterprise extends BasePage {
     }
 
     public void clickCourseraForCampusLogo() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.elementToBeClickable(courseraForCampus));
-        courseraForCampus.click();
+        waitForElement(courseraForCampus).click();
     }
 
     public void enterFirstName(String firstName) {
@@ -98,12 +97,12 @@ public class ForEnterprise extends BasePage {
         phoneInput.sendKeys(phoneNo);
     }
 
-    public void selectInstutionType(String type) {
-        new Select(instutionType).selectByValue(type);
+    public void selectInstitutionType(String type) {
+        new Select(institutionType).selectByValue(type);
     }
 
-    public void enterInstutionName(String name) {
-        instutionName.sendKeys(name);
+    public void enterInstitutionName(String name) {
+        institutionName.sendKeys(name);
     }
 
     public void selectJobTitle(String title) {
@@ -130,17 +129,33 @@ public class ForEnterprise extends BasePage {
         submitButton.click();
     }
 
-    public void getEmailErrorMessage() {
-        emailInput.click();
-        String errorMsg = emailErrorMessage.getText();
-        System.out.println();
-        System.out.println(errorMsg);
+    public String getEmailErrorMessage() {
+        return waitForElement(emailErrorMessage).getText().trim();
     }
 
-    public void takeScreenShot(){
-        TakesScreenshot ts=(TakesScreenshot)driver;
-        File tempimg=ts.getScreenshotAs(OutputType.FILE);
-        File img=new File(System.getProperty("user.dir")+"\\Screenshots\\coursera.png");
-        tempimg.renameTo(img);
+    public boolean isEmailErrorDisplayed() {
+        try {
+            return waitForElement(emailErrorMessage).isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    public void takeScreenShot() {
+        String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
+        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+        File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+        String targetFilePath = System.getProperty("user.dir") + "\\Screenshots\\" + timeStamp + "_coursera.png";
+        File targetFile = new File(targetFilePath);
+        try {
+            Files.copy(sourceFile.toPath(), targetFile.toPath());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private WebElement waitForElement(WebElement element) {
+        return new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.visibilityOf(element));
     }
 }

@@ -11,45 +11,46 @@ public class TC34_submitingEnterpriseWithInvalidMail extends BaseClass {
     @Test
     public void submitingEnterpriseWithInvalidMail() {
         logger.info("******Starting TC34_submitingEnterpriseWithInvalidMail******");
-//        test.info("Starting test: submitingEnterpriseWithInvalidMail");
+        test.info("Starting test: submitingEnterpriseWithInvalidMail");
+
         ForEnterprise fe = new ForEnterprise(driver);
         logger.info("Filling For Enterprise form with invalid email");
+
         fe.clickForEnterpriseLink();
         fe.clickForEnterprisePageLink();
         fe.clickCourseraForCampusLogo();
-//        String actualTitle = driver.getCurrentUrl();
-//        String expectedTitle = "https://www.coursera.org/campus";
-//        logger.info("Verifying page title");
-//        Assert.assertEquals(actualTitle, expectedTitle, "Page title does not match!");
-        logger.info("Entering First Name");
+
+        String actualUrl = driver.getCurrentUrl();
+        String expectedUrl = "https://www.coursera.org/campus";
+        logger.info("Verifying page URL");
+        Assert.assertEquals(actualUrl, expectedUrl, "Page URL does not match!");
+
         fe.enterFirstName("John");
-        logger.info("Entering Last Name");
         fe.enterLastName("Doe");
-        logger.info("Entering Invalid Email");
-        fe.enterEmail("johnsmithgmail.com");
-        logger.info("Entering Phone Number");
+        fe.enterEmail("johnsmithgmail.com"); // invalid email
         fe.enterPhoneNo("9876543210");
-        logger.info("Selecting Institution Type");
-        fe.selectInstutionType("University/4 Year College");
-        logger.info("Entering Institution Name");
-        fe.enterInstutionName("ABC University");
-        logger.info("Selecting Job Title");
+        fe.selectInstitutionType("University/4 Year College");
+        fe.enterInstitutionName("ABC University");
         fe.selectJobTitle("Professor");
-        logger.info("Selecting Department");
         fe.selectDepartment("Student Affairs");
-        logger.info("Selecting Description");
         fe.selectDescription("Courses for myself");
-        logger.info("Selecting Country");
         fe.selectCountry("India");
-        logger.info("Selecting State");
         fe.selectState("Andhra Pradesh");
-        logger.info("Submitting the form");
+
         fe.clickSubmitButton();
+
         logger.info("Verifying error message for invalid email");
-        fe.getEmailErrorMessage();
+        String errorMessage = fe.getEmailErrorMessage();
+
+        Assert.assertTrue(fe.isEmailErrorDisplayed(), "Email error message is not displayed!");
+        Assert.assertNotNull(errorMessage, "Error message element not found!");
+        Assert.assertFalse(errorMessage.isEmpty(), "Error message is empty!");
+        Assert.assertTrue(errorMessage.toLowerCase().contains("valid email"),
+                "Error message does not indicate invalid email!");
+
         logger.info("Taking screenshot of the error message");
         fe.takeScreenShot();
+
         logger.info("******Ending TC34_submitingEnterpriseWithInvalidMail******");
-//        test.info("Ended TC34_submitingEnterpriseWithInvalidMail");
     }
 }

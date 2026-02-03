@@ -3,7 +3,6 @@ package pageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -42,55 +41,75 @@ public class SearchResults extends BasePage {
     @FindBy(xpath = "//p[@class='css-vac8rf']/parent::div[@class='cds-CommonCard-metadata']")
     List<WebElement> courseDurations;
 
-
     public void clickLanguageFilter(){
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(languageFilter));
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.visibilityOf(languageFilter));
         languageFilter.click();
     }
 
     public void clickEnglishCheckbox(){
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(englishCheckbox));
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.elementToBeClickable(englishCheckbox));
         englishCheckbox.click();
     }
 
     public void clickLanguagesViewButton(){
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(languagesViewButton));
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.elementToBeClickable(languagesViewButton));
         languagesViewButton.click();
     }
 
     public void clickLevelFilter() {
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(levelFilter));
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.elementToBeClickable(levelFilter));
         levelFilter.click();
     }
 
     public void clickBeginnerCheckbox(){
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(beginnerCheckbox));
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.elementToBeClickable(beginnerCheckbox));
         beginnerCheckbox.click();
     }
 
     public void clickLevelViewButton(){
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(levelViewButton));
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.elementToBeClickable(levelViewButton));
         levelViewButton.click();
     }
 
     public String getCourseTitle(int index) {
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOfAllElements(courseTitles));
+        waitForCourses();
         return courseTitles.get(index).getText();
     }
 
     public String getCourseRating(int index) {
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOfAllElements(courseRatings));
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.visibilityOfAllElements(courseRatings));
         return courseRatings.get(index).getText();
     }
 
     public String getCourseDuration(int index) {
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOfAllElements(courseDurations));
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.visibilityOfAllElements(courseDurations));
         return courseDurations.get(index).getText().replaceAll(".*?(\\d.*)", "$1");
     }
 
     public int getCoursesCount() {
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOfAllElements(courseTitles));
+        waitForCourses();
         return courseTitles.size();
     }
 
+    public boolean isSearchResultDisplayed() {
+        try {
+            waitForCourses();
+            return !courseTitles.isEmpty();
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    private void waitForCourses() {
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.visibilityOfAllElements(courseTitles));
+    }
 }

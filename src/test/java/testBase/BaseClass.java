@@ -29,8 +29,7 @@ public class BaseClass {
     protected static ExtentReports extent;
 
     @BeforeSuite
-    @Parameters({"os","browser"})
-    public void setup(String os, String browser) throws IOException {
+    public void setup throws IOException {
         //Loading config.properties file
         logger = LogManager.getLogger(this.getClass());
 
@@ -39,23 +38,24 @@ public class BaseClass {
         p=new Properties();
         p.load(file);
 
-        switch(browser.toLowerCase()){
-            case "chrome":
-                driver = new ChromeDriver();
-                break;
-            case "edge":
-                // Setup EdgeDriver
-                driver = new EdgeDriver();
-                break;
-            case "firefox":
-                // Setup FirefoxDriver
-                driver = new FirefoxDriver();
-                break;
-            default:
-                logger.error("Browser not supported: " + browser);
-                System.out.println("Invalid browser! Supported browsers are: chrome, edge, firefox.");
-                return;
-        }
+//        switch(browser.toLowerCase()){
+//            case "chrome":
+//                driver = new ChromeDriver();
+//                break;
+//            case "edge":
+//                // Setup EdgeDriver
+//                driver = new EdgeDriver();
+//                break;
+//            case "firefox":
+//                // Setup FirefoxDriver
+//                driver = new FirefoxDriver();
+//                break;
+//            default:
+//                logger.error("Browser not supported: " + browser);
+//                System.out.println("Invalid browser! Supported browsers are: chrome, edge, firefox.");
+//                return;
+//        }
+        driver = new ChromeDriver();
 
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -63,7 +63,7 @@ public class BaseClass {
         driver.get(p.getProperty("appURL"));
         driver.manage().window().maximize();
 
-
+        extent = ExtentReportManager.getReportInstance();
         logger.info("Extent report initialized.");
 
     }
@@ -83,7 +83,7 @@ public class BaseClass {
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
         File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
-        String targetFilePath=System.getProperty("user.dir")+"\\Screenshots\\FailedTestCasesScreenShots" + tname + "_" + timeStamp + ".png";
+        String targetFilePath=System.getProperty("user.dir")+"\\Screenshots\\" + tname + "_" + timeStamp + ".png";
         File targetFile=new File(targetFilePath);
 
         sourceFile.renameTo(targetFile);
